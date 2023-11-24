@@ -7,6 +7,7 @@ body{
     margin: 0 auto;
 }
 #header_section{
+    
     display: flex;
     gap: 290px;
     background-color: #1E293B;
@@ -18,8 +19,11 @@ body{
 .nav_one{
     margin-top: 10px;
 }
+
 .navbar{
+   
     display: inline-block;
+    background-repeat: repeat-x;
     margin-left: 15px;
 } .nav_cont{
     display: inline-block;
@@ -29,16 +33,22 @@ h3{
     font-size: 30px;
     font-family: Roboto Flex;
     font-weight: 700;
+    background-color: #fff;
 }
 .nav_cont a{
     text-decoration: none;
     padding-left: 50px;
-    color: #000;
+    color: #fff;
     font-size: 20px;
 }
 .main_content{
     margin-top: 100px;
     margin-left: 40px;
+    color: #fff;
+   
+}
+.sev{
+    color:black;
 }
 .cont_milk{
     font-size: 20px;
@@ -47,13 +57,16 @@ h3{
      font-size: 60px;
      line-height: 72.62px;
      font-weight:500;
+     
 }  
    button{
     background-color: rgb(76, 194, 194);
     color: #fff;
     border: none;
-    width: 150px;
+    width: 180px;
     height: 30px;
+    margin-bottom: 100px;
+    border-radius: 7px;
 }
 .main_cow{
     margin-top: 100px;
@@ -77,9 +90,23 @@ h3{
 .dog{
     font-size: 20px;
     color:#1E293B ;
+  
+
     
 }
 .tea{
     font-size: 15px;
     color:#1E293B;
+}
+.info_one{
+    background-image: url(./formediaandimg/bxs_time-five.png);
+}
+.info_two{
+    background-image: url(./formediaandimg/entypo_price-tag.png);
+}
+.info_three{
+    background-image: url(./formediaandimg/ion_diamond-sharp.png);
+}
+.info_four{
+    background-image: url(./formediaandimg/uiw_setting.png);
 }
