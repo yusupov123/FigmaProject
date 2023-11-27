@@ -59,7 +59,7 @@ h3{
      font-weight:500;
      
 }  
-   button{
+   .main_button{
     background-color: rgb(76, 194, 194);
     color: #fff;
     border: none;
@@ -86,14 +86,12 @@ h3{
     float: left;
     padding-left: 110px;
     gap: 130px;
+    margin-bottom: 70px;
 }
 .dog{
     font-size: 20px;
     color:#1E293B ;
-  
-
-    
-}
+  }
 .tea{
     font-size: 15px;
     color:#1E293B;
@@ -109,4 +107,194 @@ h3{
     }
 .info_four{
     background-image: url(./formediaandimg/uiw_setting.png);
+}
+    .cards{
+         display: grid;
+        grid-template-columns: auto auto auto auto; 
+        gap: 18px;
+        margin-top: 100px;
+
     }
+    .card_one{
+        display:inline-block;
+         box-shadow: 3px 4px 12px 0px rgba(0, 0, 0, 0.25);
+        text-align: center;
+        width: 280px;
+       height: 430px; 
+       border-radius: 10px; 
+       }
+       .card_h4{
+        color: #000;
+        font-size: 20px;
+        font-weight: 500;
+       }
+
+    .card_span{
+        color: #17A400;
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .card.p{
+      color: var(--Grey-2, #7D7D7D);
+      font-size: 17px;
+      font-weight: 500;
+    }
+    .card_one-button{
+        width: 170px;
+        height: 30px;
+        border: none;
+        justify-content: flex-end;
+        align-items: center;
+        border-radius: 8px;
+        background: #FF8A00;
+        color: #fff;
+        margin-bottom: 12px;
+    }
+    /* center_card */
+    .center_card{
+        margin-top: 70px;
+        background-image: url(./formediaandimg/image\ 11.png);
+        width: 1300px;
+        height: 420px;
+    }
+    .cont_center{
+        padding-top: 150px;
+        color: #fff;
+    }
+    
+    .bloc_img{
+        display: inline-block;
+    }
+    .bloc_span{
+        display: flex;
+        color: var(--Blue, #1E293B);  
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .bloc_last{
+        margin-top: 10px;
+        display: flex;
+        gap: 26px;
+        display: block;
+        box-sizing: border-box;
+    }
+    .bloc_card{
+        box-sizing: border-box;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        box-sizing: border-box;
+        margin-top: 100px;
+ 
+    }
+    .bloc_two{
+        display: flex;
+        border-radius: 20px;
+        border: 1px solid #C6C6C6;
+        background: #FFF;
+        width: 600px;
+        height: 220px;
+        box-sizing: border-box;
+        gap: 50px;
+    }
+   
+    .middle_content{
+        font-size: 20px;
+        font-weight: 500;
+        width: 700px;
+        line-height: 150%;
+    }
+    .img_cards{
+        width: 625px;
+        height: 418px;
+       flex-shrink: 0;
+       border-radius: 30px;
+       background: url(./formediaandimg/unsplash_iusJ25iYu1c.png), lightgray 50% / cover no-repeat;
+    }
+    .middle_card{
+        display: flex; 
+        gap: 70px;
+        margin-top: 100px;
+    }
+    .litle_cont{
+        margin-top: 5px;
+        color: var(--Blue, #1E293B);
+        font-size: 20px;
+        font-weight: 600;
+        display:block;
+    }
+    .litle_button{
+       padding: 6px 26px;
+       justify-content: center;
+       border-radius: 20px;
+       border: 1px solid grey;
+       display: block;
+       text-align: center;
+    }
+    .litle_cards{
+        margin-top:100px;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap:60px;
+        background: #F8F8F8;
+    }
+    .vegetables{
+        box-sizing: border-box;
+        gap: 20px;
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        width: 1200px;
+    }
+    .veg_page{
+        color: #000;
+     font-size: 20px;
+     font-weight: 500;
+     display: block;
+    }
+    .veg_date{
+        color: var(--Grey-2, #7D7D7D);
+        font-family: Inter;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        display: block;
+    }
+    .vegatebles_img{
+         width: 310px;
+        height: 260px;
+        flex-shrink: 0;
+        display: block;
+       }
+    .veg_one{
+        display: inline-block;
+       box-shadow: 4px 6px 10px 0px rgba(0, 0, 0, 0.25);
+        border-radius: 15px;
+        background: #FFF;
+       
+        }
+        footer{
+            margin-top: 80px;
+            display: flex;
+            background-color:#1E293B;
+            color: #FFF;
+            gap: 20px;
+            width: 1300px;
+            height: 409px;
+            flex-shrink: 0;
+        }
+        .footer_one{
+            padding-top: 70px;
+            color: #FFF;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 200%;
+            padding-left: 40px;
+        }
+        .foot_icon-one,i{
+            padding-top: 70px;
+            width: 170px;
+            height: 53.6px;
+            padding-left: 120px;
+            }
+        
+    
